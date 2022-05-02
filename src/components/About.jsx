@@ -1,16 +1,11 @@
 import React from 'react';
 import { Icon } from '@iconify/react';
-import profilepicture from '../profile_pic.jpeg';
-// import '../Page.css';
-// import Footer from './Footer';
-// import Browse from './Browse';
-// import { Link } from 'react-router-dom';
+import profilepicture from '../profilepic.jpg';
 
 class About extends React.Component {
   render() {
     return (
       <div class="profile">
-        {/* <Browse /> */}
         <div class="about-me">
           <div class="about-color"></div>
             <h1>About me</h1>
@@ -75,6 +70,16 @@ class About extends React.Component {
             <div class="skill">
               <Icon className="iconify" icon="fontisto:react" id="react-icon" />
               <div class="skill-name">React</div>
+            </div>
+
+            <div class="skill">
+              <Icon className="iconify" icon="cib:jest" id="react-icon" />
+              <div class="skill-name">Jest</div>
+            </div>
+
+            <div class="skill">
+              <Icon className="iconify" icon="file-icons:chai" id="react-icon" />
+              <div class="skill-name">Chai</div>
             </div>
           </div>
         </div>

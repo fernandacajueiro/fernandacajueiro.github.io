@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
 
 * {
   font-family: 'Poppins', sans-serif;
@@ -130,8 +131,8 @@
 }
 
 .img-container img {
-  width: 22vmax;
-  height: 22vmax;
+  width: 20vw;
+  height: 20vw;
   object-fit: cover;
   border-radius: 50%;
 }
@@ -299,7 +300,11 @@ footer {
   margin: 2em 2em 2em 0;
 }
 
-.project {
+.projects-cards a {
+  text-decoration: none;
+}
+
+.project-card {
   width: 400px;
   height: 250px;
   margin: 20px;
@@ -313,6 +318,37 @@ footer {
   flex-direction: column;
 }
 
-.project:hover {
+.project-card:hover {
   background-color: #F0F2F5;
+}
+
+/* .color-project-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity .3s ease-out;
+} */
+
+/* .color-project-img:hover {
+  opacity: 0.2;
+} */
+
+.project-details {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.project-details p {
+  margin: auto;
+}
+
+.project-icon {
+  font-size: 6vw;
+}
+
+.project-title {
+  color: #4c4c4c;
+  font-size: 1.8vw;
+  font-weight: 600;
 }
