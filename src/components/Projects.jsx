@@ -28,7 +28,7 @@ class Projects extends React.Component {
               </div>
             </a>
 
-            <a target="_blank" rel="noreferrer">
+            {/* <a target="_blank" rel="noreferrer"> */}
               <div class="project-card">
                 <div class="project-details">
                   <p class="project-icon">👩🏻‍💻 ⚙️</p>
@@ -36,9 +36,9 @@ class Projects extends React.Component {
                   <p class="project-description">Coming soon...</p>
                 </div>
               </div>
-            </a>
+            {/* </a> */}
 
-            <a target="_blank" rel="noreferrer">
+            {/* <a target="_blank" rel="noreferrer"> */}
               <div class="project-card">
                 <div class="project-details">
                   <p class="project-icon">📲 📰</p>
@@ -46,7 +46,7 @@ class Projects extends React.Component {
                   <p class="project-description">Coming soon...</p>
                 </div>
               </div>
-            </a>
+            {/* </a> */}
           </div>
       </div>
     )
