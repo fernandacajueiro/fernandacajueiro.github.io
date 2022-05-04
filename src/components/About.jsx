@@ -28,7 +28,7 @@ class About extends React.Component {
                 <h2>Hi! 👋</h2>
                 <p>
                   I'm Fernanda, Brazilian living in Amsterdam 🇧🇷 🇳🇱 . Discovered the world of software development a few years ago and decided to dive in completely. 
-                  I attended an intensive coding bootcamp at <a href="https://www.betrybe.com/" class="trybe-link" target="_blank" rel="noreferrer">Trybe</a> through over an year and became a junior full-stack software developer. 
+                  I attended an intensive coding bootcamp at <a href="https://www.betrybe.com/" class="trybe-link" target="_blank" rel="noreferrer">Trybe</a> through over a year and became a junior full-stack software developer. 
                   A back-end development enthusiast and eager to learn something new everyday.
                 </p>
               </div>
